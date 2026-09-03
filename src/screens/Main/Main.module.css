@@ -1,0 +1,19 @@
+.main {
+  flex: 1 1 auto;
+  border: 1px solid #6b696b;
+  outline: 1px solid #a5a2a5;
+  background-color: #f7f3f7;
+}
+
+.main__container {
+  width: 100%;
+  height: 100%;
+  max-width: 1900px;
+  margin: 0 auto;
+}
+
+.main__grid {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 155px auto;
+}

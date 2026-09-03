@@ -1,0 +1,124 @@
+.main__info {
+  margin-bottom: 5px;
+  margin-top: 30px;
+  border: 1px solid #dedbde;
+  background-color: #fff;
+  position: relative;
+  padding: 4px;
+}
+
+.mainInfo__btnList {
+  position: absolute;
+  left: 0;
+  top: -22px;
+}
+
+.btnList__btn {
+  font-size: 12px;
+  background-color: #f7f3f7;
+  border-top: 1px solid #dedbde;
+  border-left: 1px solid #dedbde;
+  border-right: 1px solid #dedbde;
+  border-bottom: 1px solid #dedbde;
+  padding: 1px 5px;
+  margin-left: -1px;
+}
+
+.mainInfo__content {
+  height: 100%;
+  width: 100%;
+  border-top: 2px solid #a5a2a5;
+  border-left: 2px solid #a5a2a5;
+  border-bottom: 1px solid #e7e3e7;
+  border-right: 1px solid #e7e3e7;
+  /* margin: 2px; */
+}
+
+.fullinfo {
+  display: flex;
+  margin: 5px;
+}
+
+.fullInfo_even,
+.fullInfo_odd {
+  flex: 0 1 25%;
+}
+
+.fullInfo_elem {
+  display: flex;
+}
+
+.info_key {
+  font-size: 14px;
+  font-weight: 600;
+  width: 175px;
+  line-height: 15px;
+}
+
+.info_value {
+  font-size: 14px;
+  width: 300px;
+  line-height: 15px;
+}
+
+.technicalInfo_content {
+  height: calc(100% - 20px);
+  width: calc(100% - 20px);
+  border: 1px solid #636563;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.technicalInfo_block {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.blue_panel {
+  flex: 0 0 20px;
+  background-color: #0079d6;
+}
+
+.technicalInfo_infoList {
+  flex: 1 1 100%;
+}
+
+.technicalInfo_infoList_block {
+  display: flex;
+  flex-direction: column;
+}
+
+.mg_infoElem {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-left: 27px;
+}
+
+.mg_infoElem_text {
+  font-size: 11px;
+}
+
+.mainGroup {
+  /* border: 1px dotted #000; */
+  line-height: 14px;
+  background-color: #e7e3e7;
+  display: flex;
+  padding-left: 5px;
+}
+
+.mainGroup_title span,
+.mainGroup_number span {
+  font-size: 12px;
+  color: #3130f7;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.mainGroup_number {
+  flex: 0 0 22px;
+}
+
+.mainGroup_title {
+  flex: 1 1 auto;
+}

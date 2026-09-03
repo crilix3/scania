@@ -1,0 +1,42 @@
+.header {
+  flex: 0 1 40px;
+  border-left: 2px dotted #c6c3c6;
+  padding: 0 4px;
+  margin: 0 2px;
+}
+
+.header_block {
+  display: inline-flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  height: 100%;
+  border-right: 1px solid #9a979a;
+}
+
+.header_el_btn {
+  width: 36px;
+  height: 36px;
+  border: none;
+  background-image: url(/src/assets/icons/xb3kpn300cvq.png);
+  background-repeat: no-repeat;
+  border: 2px solid #f0f0f0;
+  outline: 1px solid #f0f0f0;
+  position: relative;
+  margin: 0 1px;
+}
+
+.header_el_btn:hover {
+  border: 2px solid #dee7f7;
+  outline: 1px solid #c6dbf7;
+}
+
+.separator {
+  display: block;
+  width: 1px;
+  height: 36px;
+  background-color: #7d7f7d;
+  margin: 0 3px;
+}
+
+.header_block {
+}
